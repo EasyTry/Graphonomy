@@ -7,7 +7,7 @@ from torch.nn.parameter import Parameter
 import numpy as np
 from collections import OrderedDict
 from torch.nn import Parameter
-from networks import deeplab_xception,gcn, deeplab_xception_synBN
+from . import deeplab_xception,gcn, deeplab_xception_synBN
 import pdb
 
 #######################
